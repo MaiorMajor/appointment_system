@@ -1,4 +1,4 @@
-# MedCare Health Center - School Project
+# MedCare Health Center
 
 MedCare Health Center is a desktop application developed in Python using Tkinter for the graphical user interface and SQLite3 for data persistence.  This project simulates a health center management system, focusing on user authentication, consultation management, and administrative functionalities.
 
