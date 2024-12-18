@@ -1,0 +1,4 @@
+Tkinter
+sqlite3
+hashlib
+datetime

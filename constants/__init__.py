@@ -1,0 +1,12 @@
+import os
+PATH_TO_DB = os.path.join(os.path.dirname(os.path.dirname(__file__)), "database", "clinic.db")
+PATH_TO_IMAGES = os.path.join(os.path.dirname(os.path.dirname(__file__)), "assets", "images")
+CONSULTATIONS_COLUMNS = ("ID", "Doctor", "Specialization", "Patient", "Date and Time")
+CONSULTATIONS_COLUMNS_IN_DB = ("id", "patient", "doctor", "date", "time")
+DOCTORS_COLUMNS = ("ID", "Name", "Email", "Specialization")
+DOCTORS_COLUMNS_IN_DB = ("id", "name", "email", "specialization_id")
+USERS_COLUMNS = ("ID", "Email", "Role")
+USERS_COLUMNS_IN_DB = ("id", "email", "password", "is_admin")
+SPECIALIZATIONS_COLUMNS = ("ID", "Name")
+SPECIALIZATIONS_COLUMNS_IN_DB = ("id", "name")
+TABLES_WHERE_JOIN_IS_NEEDED = ("consultations", "doctor")
